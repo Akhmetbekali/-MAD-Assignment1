@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="register">Register</string>
+    <string name="empty_alert">Enter login and password</string>
+    <string name="no_user_alert">No such user</string>
+
+</resources>

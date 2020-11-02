@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="registration">Registration Page</string>
+
+    <string name="login_hint">login</string>
+    <string name="password_hint">password</string>
+
+    <string name="alert">Enter login and password</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+
+</resources>

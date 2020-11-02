@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loginText">Login</string>
+    <string name="logOut">Logout</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+</resources>
