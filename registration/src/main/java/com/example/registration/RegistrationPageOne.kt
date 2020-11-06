@@ -26,8 +26,10 @@ class RegistrationPageOne : Fragment() {
                 Toast.makeText(activity, R.string.alert, Toast.LENGTH_LONG).show()
             } else {
                 val login = login.text.toString()
+                val password = password.text.toString()
                 val editor = mSettings!!.edit()
                 editor.putString(APP_PREFERENCES_LOGIN, login)
+                editor.putString(APP_PREFERENCES_PASSWORD, password)
                 editor.apply()
                 goToSecondStep()
             }

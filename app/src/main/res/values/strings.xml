@@ -5,5 +5,6 @@
     <string name="register">Register</string>
     <string name="empty_alert">Enter login and password</string>
     <string name="no_user_alert">No such user</string>
+    <string name="wrong_credentials">Wrong credentials</string>
 
 </resources>

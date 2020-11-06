@@ -21,6 +21,11 @@ class MainActivity : AppCompatActivity() {
             {
                 Toast.makeText(this, R.string.no_user_alert, Toast.LENGTH_LONG).show()
             }
+            else if(mSettings?.getString(APP_PREFERENCES_PASSWORD, "") !== passwordInput.text.toString() &&
+                mSettings?.getString(APP_PREFERENCES_LOGIN, "") !== loginInput.text.toString())
+            {
+                Toast.makeText(this, R.string.wrong_credentials, Toast.LENGTH_LONG).show()
+            }
             else {
                 login("login.LoginActivity")
             }

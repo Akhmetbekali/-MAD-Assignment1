@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.fragment_registration_page_three.*
 
 const val APP_PREFERENCES = "mysettings"
 const val APP_PREFERENCES_LOGIN = "login"
+const val APP_PREFERENCES_PASSWORD = "password"
 const val APP_PREFERENCES_NAME = "name"
 const val APP_PREFERENCES_SURNAME = "surname"
 
@@ -62,5 +63,3 @@ class RegistrationActivity : FragmentActivity() {
         this.finish()
     }
 }
-
-// mSettings!!.getString(APP_PREFERENCES_LOGIN, "")
