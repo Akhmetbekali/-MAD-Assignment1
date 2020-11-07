@@ -16,8 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.registration.RegistrationActivity" />
-        <activity android:name="com.example.login.LoginActivity" />
+        <activity android:name="com.example.registration.RegistrationActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name="com.example.login.LoginActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
     </application>
 
 </manifest>
